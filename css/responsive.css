@@ -1,38 +1,44 @@
 /*  МОБИЛЬКА */
 @media (max-width: 768px) {
+    /* Шапка без боковых отступов */
     .top-bar {
-        flex-direction: column;
-        text-align: center;
-        gap: 8px;
-        grid-template-columns: 45px 1fr 45px;
-        padding: 8px;
+        padding: 10px 0;          
     }
-    .can-img {
-        position: static;
-        display: block;
-        margin: 0 auto 6px;
-        width: 40px;
-        transform: rotate(20deg);
-    }
+
+    /* Полоски во всю ширину, без боковых отступов */
     .top-bar-divider {
-         padding-left: 6px 8px 6px 56px;
-     }
-    .top-bar-div {
-         padding-left: 56px;
-     }
+        padding-left: 0;           
+        padding-right: 0;
+    }
+
     .top-bar-title-inner {
-        padding-left: 56px;
+        padding-left: 0;           
         padding-right: 8px;
-     }
-    .top-bar-title h1 {
-         font-size: 22px;
-     }
-     .top-bar-title .subtitle {
-         font-size: 12px;
-     }
+    }
+
+    .top-bar-div {
+        padding-left: 0;          
+        padding-right: 8px;
+    }
+
+    /* Банка слева, поверх полосок */
+    .can-img {
+        position: absolute;       
+        left: 10px;
+        top: 50%;
+        width: 40px;
+        transform: translateY(-50%) rotate(20deg);
+        z-index: 101;
+    }
+    .top-bar-title h1 { 
+        font-size: 22px;
+    }
+    .top-bar-title .subtitle { 
+        font-size: 12px; 
+    }
     .desktop {
-         padding: 10px;
-          min-height: 0; 
+        padding: 10px; 
+        min-height: 0; 
     }
     .window {
         position: static !important;
@@ -58,17 +64,16 @@
     }
     .taskbar-items {
         display: flex;
-        /*для листания по горизонтали вкладок*/
-        overflow-x:auto;
-     }
+        overflow-x: auto;
+    }
     .taskbar-item {
-        padding:3px 6px;
-        font-size:11px;
-        max-width:110px;
+        padding: 3px 6px;
+        font-size: 11px;
+        max-width: 110px;
     }
     .floppy {
-         width: 36px;
-         opacity: 0.3; 
+        width: 36px;
+        opacity: 0.3;
     }
 }
 
