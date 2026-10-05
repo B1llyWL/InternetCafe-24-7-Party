@@ -23,7 +23,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/85b43c57-5bea-4779-acfe-63c6342a5642" 
+       <img width="1897" height="901" alt="image" src="https://github.com/user-attachments/assets/212ce89a-83e9-4421-be02-f1a269deeca0"
        width="800" 
        alt="Internet Café 24/7 Party Screenshot"
        style="border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
