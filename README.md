@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Eurovision_2024-FFD700?style=for-the-badge&logo=eurovision&logoColor=black" alt="Eurovision">
   <img src="https://img.shields.io/badge/Joost_Klein-blue?style=for-the-badge&logo=apple&logoColor=white" alt="Joost Klein">
-  <img src="https://img.shields.io/badge/Windows_95_Man-0078D6?style=for-the-badge&logo=windows95&logoColor=white" alt="Teemu Keisteri">
+  <img src="https://img.shields.io/badge/Windows_95_Man-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Teemu Keisteri">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </p>
