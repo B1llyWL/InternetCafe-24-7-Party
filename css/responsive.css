@@ -1,45 +1,33 @@
-/*  МОБИЛЬКА */
 @media (max-width: 768px) {
-    /* Шапка без боковых отступов */
     .top-bar {
-        padding: 10px 0;          
+        padding: 10px 0;
     }
 
-    /* Полоски во всю ширину, без боковых отступов */
     .top-bar-divider {
-        padding-left: 0;           
-        padding-right: 0;
+        padding: 2px 0 2px 60px;  
     }
 
     .top-bar-title-inner {
-        padding-left: 0;           
-        padding-right: 8px;
+        padding: 4px 8px 4px 60px; /* тот же резерв */
     }
 
     .top-bar-div {
-        padding-left: 0;          
-        padding-right: 8px;
+        padding: 5px 8px 5px 60px; /* и здесь */
     }
 
-    /* Банка слева, поверх полосок */
     .can-img {
-        position: absolute;       
+        position: absolute;
         left: 10px;
         top: 50%;
         width: 40px;
         transform: translateY(-50%) rotate(20deg);
         z-index: 101;
     }
-    .top-bar-title h1 { 
-        font-size: 22px;
-    }
-    .top-bar-title .subtitle { 
-        font-size: 12px; 
-    }
-    .desktop {
-        padding: 10px; 
-        min-height: 0; 
-    }
+
+    .top-bar-title h1 { font-size: 22px; }
+    .top-bar-title .subtitle { font-size: 12px; }
+
+    .desktop { padding: 10px; min-height: 0; }
     .window {
         position: static !important;
         width: 100% !important;
@@ -76,33 +64,3 @@
         opacity: 0.3;
     }
 }
-
-/*  ДЕСКТОП */
-@media (min-width: 769px) {
-    html, body {
-        height: 100%; 
-        overflow: hidden;
-     }
-    body { 
-        display: flex; 
-        flex-direction: column; 
-        padding-bottom: 0;
-     }
-    .desktop {
-         flex: 1; min-height: 0; 
-         padding-bottom: 40px;
-     }
-    .window {
-         max-width: 45%; 
-    }
-    .can-img {
-        top: 50%;
-        left: 12%; 
-    }
-}
-
-@media (min-width: 1600px) {
-    .can-img { 
-        left: 12%;
-     }  
-}     
