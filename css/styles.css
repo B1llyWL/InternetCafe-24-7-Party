@@ -85,11 +85,15 @@ body {
     font-family: 'VT323', monospace;
     font-size: clamp(28px, 5vw, 64px);
     color: #000;
-    letter-spacing: 2px;
+    letter-spacing: 0.1em;
     text-shadow: 3px 3px 0 var(--win-dark);
+    text-transform:uppercase;
+    font-weight: 700;
 }
 
 .top-bar-title .subtitle {
+    font-variant-caps:small-caps;
+    letter-spacing:0.05em;
     font-size: 20px;
     color: #000;
     font-weight: bold;
@@ -227,6 +231,7 @@ body {
     max-width: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
+    word-spacing:2px;
 }
 
 .taskbar-item.active {
