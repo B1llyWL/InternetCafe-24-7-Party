@@ -92,12 +92,12 @@
          flex: 1; min-height: 0; 
          padding-bottom: 40px;
      }
-    .window {     .can-img {
+    .window {
+         max-width: 45%; 
+    }
+    .can-img {
         top: 50%;
         left: 12%; 
-    }
-
-         max-width: 45%; 
     }
 }
 
