@@ -1,20 +1,27 @@
+/* МОБИЛЬКА  */
 @media (max-width: 768px) {
+
+    /* Шапка  */
     .top-bar {
-        padding: 10px 0;
+        padding: 10px 0;          
     }
 
+    /* Внешняя серая полоса — во всю ширину */
     .top-bar-divider {
-        padding: 2px 0 2px 60px;  
+        padding: 2px 0;
     }
 
+    /* Белая полоса с заголовком */
     .top-bar-title-inner {
-        padding: 4px 8px 4px 60px; /* тот же резерв */
+        padding: 4px 8px 4px 60px;
     }
 
+    /* Голубая полоса с сабтайтлом */
     .top-bar-div {
-        padding: 5px 8px 5px 60px; /* и здесь */
+        padding: 5px 8px 5px 60px;
     }
 
+    /* Банка слева поверх полосок */
     .can-img {
         position: absolute;
         left: 10px;
@@ -24,43 +31,94 @@
         z-index: 101;
     }
 
-    .top-bar-title h1 { font-size: 22px; }
-    .top-bar-title .subtitle { font-size: 12px; }
+    .top-bar-title h1 {
+        font-size: 22px;
+    }
 
-    .desktop { padding: 10px; min-height: 0; }
+    .top-bar-title .subtitle {
+        font-size: 12px;
+    }
+
+    /* --- Рабочий стол --- */
+    .desktop {
+        padding: 10px;
+        min-height: 0;
+    }
+
+    /* Окна в столбик */
     .window {
         position: static !important;
         width: 100% !important;
         max-width: 100%;
         margin-bottom: 15px;
     }
+
     .title-bar-controls button {
         width: 22px;
         height: 20px;
         font-size: 11px;
     }
+
     .win-invitation .window-img {
         width: 100%;
         float: none;
         margin: 6px 0 0;
     }
+
+    /* Иконки рабочего стола  */
     .desktop-icons {
         position: static;
         flex-direction: row;
         justify-content: center;
         margin-top: 20px;
     }
+
+    /* Таскбар: вкладки видны, листаются свайпом  */
     .taskbar-items {
         display: flex;
         overflow-x: auto;
     }
+
     .taskbar-item {
         padding: 3px 6px;
         font-size: 11px;
         max-width: 110px;
     }
+
+    /*  Дискеты */
     .floppy {
         width: 36px;
         opacity: 0.3;
+    }
+}
+
+/* ДЕСКТОП*/
+@media (min-width: 769px) {
+    html, body {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .desktop {
+        flex: 1;
+        min-height: 0;
+        padding-bottom: 40px;
+    }
+
+    .window {
+        max-width: 45%;
+    }
+}
+
+/* ШИРОКИЕ ЭКРАНЫ: банка в середине левого поля  */
+@media (min-width: 1600px) {
+    .can-img {
+        left: 12%;
     }
 }
