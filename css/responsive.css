@@ -57,8 +57,15 @@
         margin-top: 20px;
     }
     .taskbar-items {
-         display: none;
+        display: flex;
+        /*для листания по горизонтали вкладок*/
+        overflow-x:auto;
      }
+    .taskbar-item {
+        padding:3px 6px;
+        font-size:11px;
+        max-width:110px;
+    }
     .floppy {
          width: 36px;
          opacity: 0.3; 
