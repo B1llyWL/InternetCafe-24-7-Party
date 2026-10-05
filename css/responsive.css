@@ -1,0 +1,96 @@
+/*  МОБИЛЬКА */
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        grid-template-columns: 45px 1fr 45px;
+        padding: 8px;
+    }
+    .can-img {
+        position: static;
+        display: block;
+        margin: 0 auto 6px;
+        width: 40px;
+        transform: rotate(20deg);
+    }
+    .top-bar-divider {
+         padding-left: 6px 8px 6px 56px;
+     }
+    .top-bar-div {
+         padding-left: 56px;
+     }
+    .top-bar-title-inner {
+        padding-left: 56px;
+        padding-right: 8px;
+     }
+    .top-bar-title h1 {
+         font-size: 22px;
+     }
+     .top-bar-title .subtitle {
+         font-size: 12px;
+     }
+    .desktop {
+         padding: 10px;
+          min-height: 0; 
+    }
+    .window {
+        position: static !important;
+        width: 100% !important;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .title-bar-controls button {
+        width: 22px;
+        height: 20px;
+        font-size: 11px;
+    }
+    .win-invitation .window-img {
+        width: 100%;
+        float: none;
+        margin: 6px 0 0;
+    }
+    .desktop-icons {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .taskbar-items {
+         display: none;
+     }
+    .floppy {
+         width: 36px;
+         opacity: 0.3; 
+    }
+}
+
+/*  ДЕСКТОП */
+@media (min-width: 769px) {
+    html, body {
+        height: 100%; 
+        overflow: hidden;
+     }
+    body { 
+        display: flex; 
+        flex-direction: column; 
+        padding-bottom: 0;
+     }
+    .desktop {
+         flex: 1; min-height: 0; 
+         padding-bottom: 40px;
+     }
+    .window {     .can-img {
+        top: 50%;
+        left: 12%; 
+    }
+
+         max-width: 45%; 
+    }
+}
+
+@media (min-width: 1600px) {
+    .can-img { 
+        left: 12%;
+     }  
+}     
