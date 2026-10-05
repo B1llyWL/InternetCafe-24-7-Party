@@ -1,0 +1,31 @@
+.floppy {
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: auto;
+    /*полупрозрачность*/
+    opacity: 0.9;
+    /*запрет на клик*/
+    pointer-events: none;
+    image-rendering: pixelated;
+    animation: float 3s ease-in-out infinite;
+}
+
+/*Позиция*/
+.floppy-1 { top: 24%; left: 45%; }   
+.floppy-2 { top: 82%; left: 45%; }   
+.floppy-3 { top: 66%; left: 3%;  }  
+/*Угол направленности*/
+.floppy-1 { --rotation: -15deg; animation-delay: 0s; }
+.floppy-2 { --rotation: 45deg;  animation-delay: 1s; }
+.floppy-3 { --rotation: 90deg;  animation-delay: 2s; }
+
+/*Парение*/
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(var(--rotation)); 
+    }
+    50% {
+        transform: translateY(-10px) rotate(var(--rotation)); 
+    }
+}
