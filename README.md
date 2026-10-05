@@ -35,7 +35,7 @@
 
 A single-page invitation website for a **retro-themed party** on October 31st, 2026. Built with vanilla HTML/CSS and designed to look and feel like a real **Windows 95 desktop**, complete with:
 
-- 🪟 **Windows** (Invitation.txt, Calendar, Wi-Fi, Special Offer)
+- 🪟 **Windows** (Invitation.txt, Calendar, Wi-Fi, Special Offer, etc.)
 - 💾 **Floating floppy disk GIFs** with idle animation
 - 📺 **Pixelated Win95 icons** in title bars and taskbar
 - 🥤 **Rotated soda can** in the header (retro beverage of the night)
