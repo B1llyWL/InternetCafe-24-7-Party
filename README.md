@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Windows_95_Man-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Teemu Keisteri">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/github_pages-FFD700?style=for-the-badge&logo=github_pages&logoColor=black" alt="Github Pages">
 </p>
 
 <p align="center">
